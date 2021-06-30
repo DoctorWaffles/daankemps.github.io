@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Daan Kemps - Portfolio
+title               : Daan Kemps
 description         : I am trying to write a description to see if that works
 baseurl             : ""
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -21,27 +21,28 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Daan Kemps
-  image             : https://i.imgur.com/d8q2fxF.jpg
-#  behance           : your_username
+  image             : https://i.imgur.com/aLhUYQe.jpg
+#  behance          : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-#  facebook          : your_username
-  github            : your_username
+  email             : contact@daankemps.com
+  facebook          : daan.kemps.5
+  github            : DoctorWaffles
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
+  linkedin          : daan-kemps-829205159
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-#  twitter           : your_username
+# twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
-
+lastfm 		    : daankemps
+steam		    : daankemps
 
 ### Posts ###
 permalink: /blog/:title
