@@ -36,8 +36,9 @@ void surf(Input IN, inout SurfaceOutput o) {
 ```
 
 
-![alt text](https://i.imgur.com/AuTE69V.mp4)
+![alt text](https://i.imgur.com/z41cR9H.gifv)
 ```glsl
+
 vertexOutput vert(vertexInput input)
 {
     vertexOutput output;
