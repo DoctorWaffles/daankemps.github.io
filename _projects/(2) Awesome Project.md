@@ -1,20 +1,18 @@
 ---
 name: Overcharged
-tools: [C#, Unity]
+tools: [C#, Unity, School Project]
 image: https://i.imgur.com/Y7S36vb.jpg
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
 
-# The Movies Project
+{% capture carousel_images %}
+https://i.imgur.com/NC1ma1K.png
+https://i.imgur.com/V3eEasw.png
+https://i.imgur.com/ghhyJuA.png
+https://i.imgur.com/mKEuze0.png
+{% endcapture %}
+{% include elements/carousel.html %}
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop. Both players have a set of abilities. Such as dashing, deflecting and a jetpack for jumping, to make the gameplay a bit more interesting.
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p>
+During the project I was mostly the bridge between the programmers and the artists. Next to that I worked on sounds (with the use of FMOD), modelling, UVing, texturing, some shader work and I transfered most artist content to git.
