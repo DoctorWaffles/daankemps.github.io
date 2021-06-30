@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Daan Kemps
+title               : Daan Kemps - Portfolio
 description         : I am trying to write a description to see if that works
 baseurl             : ""
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -21,7 +21,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Daan Kemps
-  image             : https://i.imgur.com/aLhUYQe.jpg
+  image             : https://i.imgur.com/d8q2fxF.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
