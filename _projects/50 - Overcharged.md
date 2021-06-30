@@ -35,11 +35,11 @@ void surf(Input IN, inout SurfaceOutput o) {
 }
 ```
 
-<div class="container">
+<div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-    <video muted autoplay loop>
-   <source type="video/mp4" src="https://i.imgur.com/AuTE69V.mp4">
+    <video muted autoplay loop style="height: 100%;  width: 100%;">
+   <source type="video/mp4" src="https://i.imgur.com/Y9MkHYx.mp4">
 </video>
     </div>
     <div class="col-sm">
