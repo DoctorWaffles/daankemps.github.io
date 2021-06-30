@@ -1,10 +1,8 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Daan Kemps
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+                      I am trying to write a description to see if that works
+baseurl             : ""
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
