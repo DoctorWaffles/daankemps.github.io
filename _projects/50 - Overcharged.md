@@ -35,13 +35,9 @@ void surf(Input IN, inout SurfaceOutput o) {
 }
 ```
 
-<video width="480" height="320" controls="controls">
-  <source src="https://i.imgur.com/AuTE69V.mp4" type="video/mp4">
+<video muted autoplay loop>
+   <source type="video/mp4" src="https://i.imgur.com/AuTE69V.mp4">
 </video>
-
-<video muted autoplay controls>
-   <source type="video/mp4" src="https://i.imgur.com/AuTE69V.mp4"></video>
-
 
 ```glsl
 
