@@ -35,9 +35,20 @@ void surf(Input IN, inout SurfaceOutput o) {
 }
 ```
 
-<video muted autoplay loop>
+<div class="container">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-sm">
+    <video muted autoplay loop>
    <source type="video/mp4" src="https://i.imgur.com/AuTE69V.mp4">
 </video>
+    </div>
+    <div class="col-sm">
+<h6>Shader</h6>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
+    </div>
+  </div>
+</div>
+
 
 ```glsl
 
