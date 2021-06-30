@@ -21,22 +21,22 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Daan Kemps
   image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+#  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : contact@daankemps.com
+# facebook          : your_username
+  github            : doctorwaffles
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+ linkedin          : daan-kemps-829205159
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+# twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
@@ -60,9 +60,10 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true
   google:
-    tracking_id: your-google-tracking-id
+    tracking_id: G-GC1LTVDBKG
+
 
 
 ### Defaults for collections ###
