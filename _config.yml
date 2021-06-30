@@ -1,7 +1,6 @@
 ### Site Settings ###
 title               : Daan Kemps
-description         : >-
-                      I am trying to write a description to see if that works
+description         : I am trying to write a description to see if that works
 baseurl             : ""
 
 
@@ -29,7 +28,7 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
- linkedin          : daan-kemps-829205159
+ linkedin           : daan-kemps-829205159
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
