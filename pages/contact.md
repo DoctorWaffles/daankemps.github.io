@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /Contact/
+permalink: /contact/
 weight: 4
 ---
 
@@ -9,10 +9,6 @@ weight: 4
 
 Have a question or are you in dire need to hire me?
 
-<!-- action="https://formkeep.com/f/exampletoken" method="POST" -->
-<form accept-charset="UTF-8" >
-  <input type="email" name="email" placeholder="Your Email">
-  <input type="text" name="name" placeholder="Your Name">
-  <input type="hidden" name="utf8" value="✓">
-  <button type="submit">Submit</button>
+<form action="mailto:contact@daankemps.com" enctype="text/plain">
+<textarea></textarea>
 </form>
