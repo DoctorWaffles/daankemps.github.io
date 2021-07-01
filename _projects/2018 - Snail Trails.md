@@ -1,8 +1,8 @@
 ---
 name: Snail Trails
 tools: [Lua, School Project, Game Design, UX/UI]
-image: https://i.imgur.com/E9FIyd7.png
-description: You play as a snail, slow and steady, whilst painting the level in the color of your slime. The snail can’t go onto blocks which isn’t its color, the snail can however change color with the use color change tiles. There are also pressure plates in the levels, which you have to activate while being colored in the same color of the pressure plate.
+image: blob:https://imgur.com/ce5ffaad-0121-4fdd-a3e1-92e97831e612
+description: You play as a snail, slow and steady, whilst painting the level in the color of your slime.
 ---
 {% include elements/trailer.html url="/assets/media/snail_trails.mp4" %}
 
