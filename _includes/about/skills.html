@@ -1,10 +1,8 @@
 <div class="col-lg">
     {% for group in include.source %}
-    <h4 class="mb-3">{{ group.name }}</h4>
-    <div class="row justify-content-between align-items-center">
-        <div class="col-10">
-            <p class="mb-1 text-muted">{{ group.skills }}</p>
-        </div>
+    <h4>{{ group.name }}</h4>
+    <div class="col-10">
+        <p class="mb-1 text-muted">{{ group.skills }}</p>
     </div>
     {% endfor %}
 
