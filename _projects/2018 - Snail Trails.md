@@ -1,7 +1,7 @@
 ---
 name: Snail Trails
 tools: [Lua, School Project, Game Design, UX/UI]
-image: blob:https://imgur.com/ce5ffaad-0121-4fdd-a3e1-92e97831e612
+image: https://i.imgur.com/X0S9aiJ.png
 description: You play as a snail, slow and steady, whilst painting the level in the color of your slime.
 ---
 {% include elements/trailer.html url="/assets/media/snail_trails.mp4" %}
