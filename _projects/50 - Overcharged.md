@@ -1,6 +1,6 @@
 ---
 name: Overcharged
-tools: [C#, Unity, School Project]
+tools: [C#, Unity, School Project, Shaders]
 image: https://i.imgur.com/Y7S36vb.jpg
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
@@ -20,22 +20,7 @@ During the project I was mostly the bridge between the programmers and the artis
     </div>
     <div class="col-sm" style="margin-top: 20px">
     <h6>Shader</h6>
-      ```glsl
-void vert(inout appdata_full v) {
-    half noiseVal = tex2Dlod(_NoiseTex, float4(v.texcoord.xy, 0, 0)).r;
-}
-
-void surf(Input IN, inout SurfaceOutput o) {
-    half noiseVal = tex2D(_NoiseTex, IN.uv_NoiseTex).r + (sin(_Time.y)) / _Speed;
-    half4 color = tex2D(_RampTex, float2(saturate(_RampVal + noiseVal), 1)) * _Color;
-    if (color.a < _Cutoff)
-    {
-        discard;
-    }
-    o.Albedo = color.rgb;
-    o.Emission = color.rgb;
-}
-```
+        As we took Rocket League as an inspiration, the team wanted a similar crowd. I invested some time in creating a billboard shader to recreate such a crowd. It worked out nicely, I used a small script to assign each 'egg' a different color from it's team color range.
     </div>
   </div>
 </div>
