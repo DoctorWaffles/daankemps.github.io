@@ -5,11 +5,9 @@ image: https://i.imgur.com/Y7S36vb.jpg
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
 
-<video muted loop controls style="height: 300px;  width: 100%;  overflow:hidden;    display:block;">
+<video loop controls style="width: 100%;  overflow:hidden;    display:block; margin-bottom:24px">
    <source type="video/mp4" src="https://www.daankemps.com/assets/media/overcharged.mp4">
 </video>
-
-
 
 
 ##### Overcharged (School project - 2018)
