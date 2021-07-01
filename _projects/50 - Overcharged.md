@@ -4,12 +4,6 @@ tools: [C#, Unity, School Project]
 image: https://i.imgur.com/Y7S36vb.jpg
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
-
-<video loop controls style="width: 100%;  overflow:hidden;    display:block; margin-bottom:24px">
-   <source type="video/mp4" src="https://www.daankemps.com/assets/media/overcharged.mp4">
-</video>
-
-
 {% include elements/trailer.html url="/assets/media/overcharged.mp4" %}
 
 ##### Overcharged (School project - 2018)
@@ -22,13 +16,11 @@ During the project I was mostly the bridge between the programmers and the artis
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-    <video muted autoplay loop style="height: 100%;  width: 100%;  overflow:hidden;    display:block;">
-   <source type="video/mp4" src="https://i.imgur.com/B6nG8SS.mp4">
-</video>
+        {% include elements/trailer.html url="https://i.imgur.com/B6nG8SS.mp4" %}
     </div>
     <div class="col-sm" style="margin-top: 20px">
-<h6>Shader</h6>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
+    <h6>Shader</h6>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
     </div>
   </div>
 </div>
