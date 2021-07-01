@@ -16,7 +16,7 @@ During the project I was mostly the bridge between the programmers and the artis
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        {% include elements/video.html url="https://i.imgur.com/B6nG8SS.mp4" height="600" %}
+        {% include elements/video.html url="https://i.imgur.com/B6nG8SS.mp4" height="600" positionX="0" positionY="0" %}
     </div>
     <div class="col-sm" style="margin-top: 20px">
     <h6>Shader</h6>
