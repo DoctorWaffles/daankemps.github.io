@@ -1,5 +1,11 @@
+---
 - name: Programming
-  skills: "C#, Dart"
-  
+  skills: C#, GLSL, JavaScript, PHP, Dart
 - name: 3D
   skills: Maya
+- name: 2D
+  skills: Substance Painter, Substance Designer, Figma, Photoshop
+- name: Misc.
+  skills: Scrum, Git, HackNPlan
+- name: Marketing
+  skills: SEO, SEA, Mautic
