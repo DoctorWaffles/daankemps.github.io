@@ -16,11 +16,26 @@ During the project I was mostly the bridge between the programmers and the artis
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        {% include elements/video.html url="https://i.imgur.com/B6nG8SS.mp4" height="600" positionX="0" positionY="0" %}
+        {% include elements/video.html url="https://i.imgur.com/B6nG8SS.mp4" %}
     </div>
     <div class="col-sm" style="margin-top: 20px">
     <h6>Shader</h6>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
+      ```glsl
+void vert(inout appdata_full v) {
+    half noiseVal = tex2Dlod(_NoiseTex, float4(v.texcoord.xy, 0, 0)).r;
+}
+
+void surf(Input IN, inout SurfaceOutput o) {
+    half noiseVal = tex2D(_NoiseTex, IN.uv_NoiseTex).r + (sin(_Time.y)) / _Speed;
+    half4 color = tex2D(_RampTex, float2(saturate(_RampVal + noiseVal), 1)) * _Color;
+    if (color.a < _Cutoff)
+    {
+        discard;
+    }
+    o.Albedo = color.rgb;
+    o.Emission = color.rgb;
+}
+```
     </div>
   </div>
 </div>
