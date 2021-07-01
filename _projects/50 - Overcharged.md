@@ -5,13 +5,8 @@ image: https://i.imgur.com/Y7S36vb.jpg
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
 
-{% capture carousel_images %}
-https://i.imgur.com/NC1ma1K.png
-https://i.imgur.com/V3eEasw.png
-https://i.imgur.com/ghhyJuA.png
-https://i.imgur.com/mKEuze0.png
-{% endcapture %}
-{% include elements/carousel.html %}
+{% include elements/video.html id="yf_GyHBjipY" %}
+
 
 ##### Overcharged (School project - 2018)
 > Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop. Both players have a set of abilities. Such as dashing, deflecting and a jetpack for jumping, to make the gameplay a bit more interesting.
@@ -22,7 +17,7 @@ During the project I was mostly the bridge between the programmers and the artis
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
     <video muted autoplay loop style="height: 100%;  width: 100%;  overflow:hidden;    display:block;">
-   <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
+   <source type="video/mp4" src="https://i.imgur.com/B6nG8SS.mp4">
 </video>
     </div>
     <div class="col-sm" style="margin-top: 20px">
@@ -98,3 +93,11 @@ th modelling I focussed mostly on the arena and its stand(s). I kept the field a
 or all sounds I used FMOD to add some random modulation to pitch and volume. I made my own custom FMOD class which handled all audio for me, which I for example used for the player's jetpack. Making it so that the volume and pitch of the jetpack is dependent on the jetpack's energy.
 
 As for the sounds themselves, I tried to give them an electric feeling, as the ball itself contained electricity and sparks.
+
+{% capture carousel_images %}
+https://i.imgur.com/NC1ma1K.png
+https://i.imgur.com/V3eEasw.png
+https://i.imgur.com/ghhyJuA.png
+https://i.imgur.com/mKEuze0.png
+{% endcapture %}
+{% include elements/carousel.html %}
