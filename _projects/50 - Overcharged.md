@@ -18,6 +18,20 @@ https://i.imgur.com/mKEuze0.png
 
 During the project I was mostly the bridge between the programmers and the artists. Next to that I worked on sounds (with the use of FMOD), modelling, UVing, texturing, some shader work and I transfered most artist content to git.
 
+<div class="container" style="padding: 0px">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-sm">
+    <video muted autoplay loop style="height: 100%;  width: 100%;  overflow:hidden;    display:block;">
+   <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
+</video>
+    </div>
+    <div class="col-sm" style="margin-top: 20px">
+<h6>Shader</h6>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
+    </div>
+  </div>
+</div>
+
 ```glsl
 void vert(inout appdata_full v) {
     half noiseVal = tex2Dlod(_NoiseTex, float4(v.texcoord.xy, 0, 0)).r;
@@ -42,7 +56,7 @@ void surf(Input IN, inout SurfaceOutput o) {
    <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
 </video>
     </div>
-    <div class="col-sm">
+    <div class="col-sm" style="margin-top: 20px">
 <h6>Shader</h6>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur augue tortor, tempus quis magna in, sodales elementum arcu. Nulla feugiat nisl eleifend neque eleifend, ac lacinia lorem tristique. Vestibulum sit amet lorem vel nunc aliquam pulvinar in ut nisi. 
     </div>
