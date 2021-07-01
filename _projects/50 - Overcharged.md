@@ -10,6 +10,8 @@ description: Overcharged is a local multiplayer game in which two players attemp
 </video>
 
 
+{% include elements/trailer.html url="/assets/media/overcharged.mp4" %}
+
 ##### Overcharged (School project - 2018)
 > Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop. Both players have a set of abilities. Such as dashing, deflecting and a jetpack for jumping, to make the gameplay a bit more interesting.
 
