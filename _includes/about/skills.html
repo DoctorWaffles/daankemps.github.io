@@ -2,18 +2,15 @@
 
 <div class="col-lg">
 
-    <h4 class="mb-3">{{ page.title }}</h4>
+    
 
     {% for skill in site.data.skills %}
-
+    <h4 class="mb-3">{{ skill.group }}</h4>
     <div class="row justify-content-between align-items-center">
         <div class="col-10">
             <p class="mb-1 text-muted">{{ skill.name }}</p>
         </div>
     </div>
-
-
-
     {% endfor %}
 
 </div>

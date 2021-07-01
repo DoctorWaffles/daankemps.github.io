@@ -1,15 +1,6 @@
----
-title: Programming
----
 
-- name: C%
-  percentage: 
-  color: secondary
+- name: C#
 
 - name: Go
-  percentage: 
-  color:
 
 - name: Python
-  percentage: 70
-  color: secondary
