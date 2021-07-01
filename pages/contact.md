@@ -7,20 +7,10 @@ weight: 4
 
 # **Contact me**
 
-<form
-  action="https://formspree.io/f/xgerznaw"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
+<form method="POST" action="https://formspree.io/daankemps@hotmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <input type="text" name="name" placeholder="Your name">
+  <textarea name="message" placeholder="Your message" rows="3">
+  </textarea>
+  <button type="submit">Send Message</button>
 </form>
