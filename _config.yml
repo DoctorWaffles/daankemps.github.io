@@ -79,6 +79,9 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
+  # - scope:
+  #     path: "media"
+  #     type: "media"
 
 ### Exclude from processing ###
 exclude:
