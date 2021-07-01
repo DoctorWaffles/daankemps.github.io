@@ -1,5 +1,5 @@
-name: Programming
-  - skills: C#, Dart
-
-name: 3D
-  - skills: Maya
+- name: Programming
+  skills: "C#, Dart"
+- 
+  name: 3D
+  skills: Maya
