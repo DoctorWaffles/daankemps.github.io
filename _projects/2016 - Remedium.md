@@ -3,6 +3,7 @@ name: Remedium
 tools: [2D, School Assignment]
 image: https://i.imgur.com/KMhGQzS.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
+date: 2018
 ---
 
 ##### Remedium (School project - 2016)

@@ -3,6 +3,7 @@ name: Evadr
 tools: [2D, School Project]
 image: https://i.imgur.com/uMfLJjl.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
+date: 2018
 ---
 
 ##### Evadr (School project - 2016)
