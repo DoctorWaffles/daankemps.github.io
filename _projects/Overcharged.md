@@ -2,14 +2,14 @@
 name: Overcharged
 tools: [School Project, C#, Shaders]
 image: https://i.imgur.com/Y7S36vb.jpg
-date: 2017-07-02T09:07:40+0100
+date: 2017-12-02T09:07:40+0100
 engine: Unity
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
+long_description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop. Both players have a set of abilities. Such as dashing, deflecting and a jetpack for jumping, to make the gameplay a bit more interesting.
+trailer_file: overcharged.mp4
 ---
-{% include elements/trailer.html url="/assets/media/overcharged.mp4" %}
 
-##### Overcharged (School project - 2018)
-> Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop. Both players have a set of abilities. Such as dashing, deflecting and a jetpack for jumping, to make the gameplay a bit more interesting.
+{% include elements/intro.md %}
 
 Overcharged was a university project in the second quarter of my second year in which we were free to create any indie game we would like to by utilizing any engine we wanted to. We were given three weeks of time for development with a team of four designers/artists and two programmers. 
 
