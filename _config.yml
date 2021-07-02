@@ -11,13 +11,14 @@ nav_exclude:
   - pages/index.md
 author:
   name: Daan Kemps
-  image: https://i.imgur.com/oiG88gF.jpg
+  image: https://i.imgur.com/aeyyKaU.png
   email: contact@daankemps.com
-  facebook: daan.kemps.5
   github: DoctorWaffles
   linkedin: daan-kemps-829205159
-lastfm: daankemps
-steam: daankemps
+  steam: daankemps
+  discord: 124970019493904380
+  facebook: daan.kemps.5
+  lastfm: daankemps
 permalink: /blog/:title
 collections:
   projects:
