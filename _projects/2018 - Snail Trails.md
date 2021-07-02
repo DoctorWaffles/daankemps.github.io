@@ -4,6 +4,7 @@ tools: [Lua, School Project, Game Design, UX/UI]
 image: https://i.imgur.com/X0S9aiJ.png
 description: You play as a snail, slow and steady, whilst painting the level in the color of your slime.
 date: 2018-07-02T09:07:40+0100
+software: Unity
 ---
 {% include elements/trailer.html url="/assets/media/snail_trails.mp4" %}
 

@@ -46,6 +46,10 @@
     {%- assign project_tools = project.tools -%}
     {%- assign project_date  = project.date -%}
 
+
+    {% assign software = site.data.software | where: project.software %}
+    {%- assign project_software =  software[0].img_url -%}
+
     {%- if project.external_url -%}
       {%- assign project_url = project.external_url -%}
     {%- else -%}

@@ -3,6 +3,7 @@ name: Overcharged
 tools: [C#, Unity, School Project, Shaders]
 image: https://i.imgur.com/Y7S36vb.jpg
 date: 2018-07-02T09:07:40+0100
+software: Unity
 description: Overcharged is a local multiplayer game in which two players attempt to shoot the ball inside their opponent's hoop.
 ---
 {% include elements/trailer.html url="/assets/media/overcharged.mp4" %}
