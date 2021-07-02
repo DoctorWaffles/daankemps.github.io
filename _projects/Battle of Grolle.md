@@ -8,7 +8,7 @@ engine: Unity
 ---
 {% include elements/trailer.html url="/assets/media/battle_of_grolle.mp4" %}
 
-##### TBattle of Grolle VR prototype(School project - 2018)
+##### Battle of Grolle VR prototype(School project - 2018)
 >  There is a Dutch spy luring Grolle in 1627! The Spanish had been taking over Groenlo and the Dutch Republic wanted to take back the city. Your mission is to find out who the Dutch spy inside the city Grolle is. During this fascinating adventure, you will meet six people, the spy is among these people. 
 
 
