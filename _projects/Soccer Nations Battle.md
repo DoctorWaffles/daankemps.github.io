@@ -7,6 +7,8 @@ date: 2017-07-02T09:07:40+0100
 engine: Unity
 ---
 
+{% include elements/trailer.html url="/assets/media/soccer_nations_battle.webm" %}
+
 ##### Soccer Nations Battle
 >  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc. Morbi tempus nibh a libero eleifend vestibulum. In id ultricies arcu. Maecenas in lorem eget sem imperdiet mattis non in eros. Donec consectetur, nibh at efficitur dignissim, leo dui consectetur erat, id porttitor nulla risus sit amet arcu.
 
