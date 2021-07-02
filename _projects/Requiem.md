@@ -4,7 +4,7 @@ tools: [3D, School Project, Game Design]
 image: https://i.imgur.com/17ZXW6F.jpg
 engine: Unity
 description: Requiem is a story based RPG in which you play a gravedigger, the only remaining inhabitant of a cursed village deep in the mountains called Dunstan. 
-date: 2018-07-02T09:07:40+0100
+date: 2017-08-02T09:07:40+0100
 
 ---
 {% include elements/trailer.html url="/assets/media/requiem.mp4" %}

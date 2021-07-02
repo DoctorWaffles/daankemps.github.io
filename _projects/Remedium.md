@@ -1,9 +1,9 @@
 ---
 name: Remedium
-tools: [2D, School Assignment, Lua]
+tools: [2D, School Assignment, Scripting]
 image: https://i.imgur.com/KMhGQzS.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
-date: 2018-07-02T09:07:40+0100
+date: 2017-06-02T09:07:40+0100
 engine: OpenGL
 ---
 
