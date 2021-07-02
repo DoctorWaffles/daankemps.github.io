@@ -1,10 +1,10 @@
 ---
 name: Remedium
-tools: [2D, School Assignment]
+tools: [2D, School Assignment, Lua]
 image: https://i.imgur.com/KMhGQzS.jpg
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
 date: 2018-07-02T09:07:40+0100
-software: Unity
+engine: OpenGL
 ---
 
 ##### Remedium (School project - 2016)

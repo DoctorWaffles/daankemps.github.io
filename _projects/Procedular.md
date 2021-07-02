@@ -1,9 +1,9 @@
 ---
 name: Procedular
-tools: [C#, Substance Painter, Procedular]
+tools: [C#, Substance Painter]
 image: https://i.imgur.com/BGInXc4.jpg
 date: 2017-07-02T10:00:54+0000
-software: Unity
+engine: Unity
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc. 
 ---
 

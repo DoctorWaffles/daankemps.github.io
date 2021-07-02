@@ -1,10 +1,10 @@
 ---
 name: Nexzoid
-tools: [Source Engine, Hammer Editor, Level Design]
+tools: [Level Design]
 image: https://i.imgur.com/xHxzYfh.png
 date: 2010-07-02T10:00:54+0000
-software: Source
 description: Buccaneers Bay is a pirate game in which you hoist the anchor and sail the seven seas, finding treasures and booty!
+engine: Source Engine
 ---
 
 ##### Nexzoid (Counter-Strike: Source - 2010)

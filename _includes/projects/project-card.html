@@ -5,22 +5,18 @@
     {%- endif -%}
     <div class="card-body">
       <h5 id="{{ project_id }}-name" class="card-title">
-        {%- if project_type == "remote" -%}
-        <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250"
-          title="GitHub Repository"></i> |&nbsp;
-        {%- endif -%}
+          {%- if project_type == "remote" -%}
+          <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250" title="GitHub Repository"></i> |&nbsp;
+          {%- endif -%}
         {{ project_name }}
-        <span class="text-muted" style="font-size: 1rem;">{{ project_date | date: "%Y" }}</span>
       </h5>
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
-
-      {%- for software in project_software -%}
-      <img src='{{ software.img_url }}' />
-      {%- endfor -%}
-
       <p id="{{ project_id }}-tools" class="card-text">
+        {% if project_engine != blank %}
+        <span class="badge badge-pill text-primary border border-primary ml-1 engine">{{project_engine}}</span>
+        {%- endif -%}
         {%- for tool in project_tools -%}
-        <small class="text-muted ml-1">{{ tool }}</small>
+        <span class="badge badge-pill text-primary border border-primary ml-1">{{ tool }}</span>
         {%- endfor -%}
       </p>
     </div>

@@ -1,9 +1,9 @@
 ---
 name: Buccaneers Bay
-tools: [C#, Unity, School Project, Shaders]
+tools: [C#, School Project, Shaders]
 image: https://i.imgur.com/E9FIyd7.png
 date: 2018-07-02T09:07:40+0100
-software: 'Unity, Maya, Painter, Designer'
+engine: Unity
 description: Buccaneers Bay is a pirate game in which you hoist the anchor and sail the seven seas, finding treasures and booty!
 ---
 {% include elements/trailer.html url="/assets/media/buccaneers_bay.mp4" %}
