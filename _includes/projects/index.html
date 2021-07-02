@@ -47,8 +47,15 @@
     {%- assign project_date  = project.date -%}
 
 
-    {% assign software = site.data.software | where: 'name', project.software %}
-    {%- assign project_software =  software  -%}
+    {% assign softwares = project.software | split: ", " %}
+    {% assign project_software = "" | split: ", " %}
+
+     {% for software in site.data.software %}
+      {% if softwares contains software.name %}
+        {% assign project_software = project_software | push: software %}
+      {% endif %}
+    {% endfor %}
+
 
     {%- if project.external_url -%}
       {%- assign project_url = project.external_url -%}

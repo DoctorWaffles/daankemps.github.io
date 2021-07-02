@@ -14,15 +14,15 @@
       </h5>
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
 
-      {%- for software in  project_software -%}
-       <img src='{{ software.img_url }}'/>
+      {%- for software in project_software -%}
+      <img src='{{ software.img_url }}' />
       {%- endfor -%}
-    
-        <p id="{{ project_id }}-tools" class="card-text">
-          {%- for tool in project_tools -%}
-          <small class="text-muted ml-1">{{ tool }}</small>
-          {%- endfor -%}
-        </p>
+
+      <p id="{{ project_id }}-tools" class="card-text">
+        {%- for tool in project_tools -%}
+        <small class="text-muted ml-1">{{ tool }}</small>
+        {%- endfor -%}
+      </p>
     </div>
   </a>
 </div>
