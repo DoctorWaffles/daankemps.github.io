@@ -12,7 +12,7 @@
     {%- assign project_engine = project.engine -%}
     {%- assign project_date  = project.date -%}
 
-    {%- if project.remote_url != "" -%}
+    {%- if project.remote_url -%}
       {%- assign project_url = project.remote_url -%}
     {%- else -%}
       {%- assign project_url = project.url | relative_url -%}
