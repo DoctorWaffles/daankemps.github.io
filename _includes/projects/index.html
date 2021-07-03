@@ -1,32 +1,6 @@
 <div class="card-columns m-3 mt-5">
-
-  <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
-
-    {%- for repo in site.github.public_repositories -%}
-
-      {%- if remote_project == repo.name -%}
-
-        {%- assign project = repo -%}
-        
-        {%- assign project_type  = "remote" -%}
-        {%- assign project_id    = project.name -%}
-        {%- assign project_img   = false -%}
-        {%- assign project_name  = project.name  -%}
-        {%- assign project_desc  = project.description -%}
-        {%- assign project_url   = project.html_url -%}
-        {%- assign project_tools = remove_first | project.topics  -%}
-        {%- assign project_engine = project.topics[0] | capitalize -%}
-        {% include projects/project-card.html %}
-
-      {%- endif -%}
-
-    {%- endfor -%}
-
-  {% endfor %}
-
-  <!-- Local Projects -->
-  {% assign sortedProjects = site.projects | sort: 'date' | reverse %}
+  {% assign allprojects = site.projects | concat: site.remote-projects %}
+  {% assign sortedProjects = allprojects | sort: 'date' | reverse %}
   {% for project in sortedProjects}
 
     {%- assign project_type  = "local" -%}
@@ -34,12 +8,12 @@
     {%- assign project_img   = project.image -%}
     {%- assign project_name  = project.name -%}
     {%- assign project_desc  = project.description -%}
-    {%- assign project_tools = project.tools -%}
+    {%- assign project_tags = project.tags -%}
     {%- assign project_engine = project.engine -%}
     {%- assign project_date  = project.date -%}
 
-    {%- if project.external_url -%}
-      {%- assign project_url = project.external_url -%}
+    {%- if project.remote_url != "" -%}
+      {%- assign project_url = project.remote_url -%}
     {%- else -%}
       {%- assign project_url = project.url | relative_url -%}
     {%- endif -%}

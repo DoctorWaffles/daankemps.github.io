@@ -24,6 +24,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  remote-projects:
+    output: true
 disqus:
   shortname: your-short-name-disqus
 analytics:
