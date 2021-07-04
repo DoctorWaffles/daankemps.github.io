@@ -1,8 +1,8 @@
 ---
-name: Velocity LODs
+name: VelocityLOD
 tags: [Programming]
-description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
-date: 2021-05-02T09:07:40+0100
-remote_url: https://github.com/DoctorWaffles/doctorwaffles.github.io
+description: VelocityLOD allows switching between different LOD levels based upon its velocity relative to its observer.
+date: 2021-07-04T09:07:40+0100
+remote_url: https://github.com/DoctorWaffles/VelocityLOD
 engine: Unity
 ---
