@@ -8,6 +8,7 @@ remote_theme: YoussefRaafatNasry/portfolYOU
 plugins:
   - jemoji
   - jekyll-seo-tag
+  - jekyll-sitemap
 nav_exclude:
   - pages/tags.html
   - pages/404.html
