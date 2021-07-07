@@ -8,7 +8,8 @@
         {% if project_url contains "github" %}
         <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250"
           title="GitHub Repository"></i> |&nbsp;
-        {% else if project_url contains "steam" %}
+        {% endif %}
+        {%  if project_url contains "steam" %}
         <i class="fab fa-steam" data-toggle="tooltip" data-placement="bottom" data-delay="250"
           title="Steam Store"></i> |&nbsp;
         {% endif %}
