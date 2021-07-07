@@ -1,10 +1,13 @@
 ---
 title: Daan Kemps
+tagline: I am trying to write a description to see if that works
 description: I am trying to write a description to see if that works
+url: https://www.daankemps.com
 baseurl: ''
 remote_theme: YoussefRaafatNasry/portfolYOU
 plugins:
   - jemoji
+  - jekyll-seo-tag
 nav_exclude:
   - pages/tags.html
   - pages/404.html
