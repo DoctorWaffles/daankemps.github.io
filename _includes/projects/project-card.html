@@ -5,10 +5,14 @@
     {%- endif -%}
     <div class="card-body">
       <h5 id="{{ project_id }}-name" class="card-title">
-        {% unless project_url contains "projects" %}
+        {% if project_url contains "github" %}
         <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" data-delay="250"
           title="GitHub Repository"></i> |&nbsp;
-        {% endunless %}
+        {% else if project_url contains "steam" %}
+        <i class="fab fa-steam" data-toggle="tooltip" data-placement="bottom" data-delay="250"
+          title="Steam Store"></i> |&nbsp;
+        {% endif %}
+
         {{ project_name }}
         <span class="text-muted" style="font-size: 1rem;">{{ project_date | date: "%Y" }}</span>
       </h5>
