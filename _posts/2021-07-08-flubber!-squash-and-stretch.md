@@ -20,15 +20,15 @@ However, skewing wont give enough of a squash and stretch impression on its own,
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        <img src="https://i.imgur.com/bBd2nry.png"/>
+        <img src="https://i.imgur.com/iO8KAlM.png"/>
         <center><small>Stationary</small></center>
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/o12keVL.png"/>
+        <img src="https://i.imgur.com/1XcnMGi.png"/>
         <center><small>Horizontal velocity</small></center>
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/eZytKez.png"/>
+        <img src="https://i.imgur.com/yIXIUwD.png"/>
          <center><small>Vertical velocity</small></center>
     </div>
   </div>
