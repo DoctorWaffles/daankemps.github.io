@@ -26,21 +26,11 @@ Horizontal movement
     </div>
     <div class="col-sm">
         <img src="https://i.imgur.com/sojrQu2.png"/>
-        <center><small>Object moving to the right</small></center>
+        <center><small>Object moving to the left</small></center>
     </div>
     <div class="col-sm">
         <img src="https://i.imgur.com/moG9fjG.png"/>
          <center><small>Object moving to the right</small></center>
-    </div>
-  </div>
-</div>
-
-Vertical movement
-<div class="container" style="padding: 0px">
-  <div class="row" style="margin-bottom: 20px;">
-    <div class="col-sm">
-        <img src="https://i.imgur.com/fE1yxvo.png"/>
-        <center><small>Stationary</small></center>
     </div>
     <div class="col-sm">
         <img src="https://i.imgur.com/5WVQaWN.png"/>
@@ -48,7 +38,7 @@ Vertical movement
     </div>
     <div class="col-sm">
         <img src="https://i.imgur.com/daNsa6V.png"/>
-         <center><small>Object moving to upwards</small></center>
+         <center><small>Object moving upwards</small></center>
     </div>
   </div>
 </div>
