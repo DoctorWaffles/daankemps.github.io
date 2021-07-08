@@ -20,25 +20,25 @@ However, skewing wont give enough of a squash and stretch impression on its own,
 Horizontal movement
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
-    <div class="col-sm">
+    <div class="col-sm-6">
         <img src="https://i.imgur.com/fE1yxvo.png"/>
         <center><small>Stationary</small></center>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6">
         <img src="https://i.imgur.com/sojrQu2.png"/>
-        <center><small>Object moving to the left</small></center>
+        <center><small>Object moving left</small></center>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6 ">
         <img src="https://i.imgur.com/moG9fjG.png"/>
-         <center><small>Object moving to the right</small></center>
+         <center><small>Object moving right</small></center>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6">
         <img src="https://i.imgur.com/5WVQaWN.png"/>
-        <center><small>Object moving downwards</small></center>
+        <center><small>Object moving up</small></center>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-6">
         <img src="https://i.imgur.com/daNsa6V.png"/>
-         <center><small>Object moving upwards</small></center>
+         <center><small>Object moving down</small></center>
     </div>
   </div>
 </div>
