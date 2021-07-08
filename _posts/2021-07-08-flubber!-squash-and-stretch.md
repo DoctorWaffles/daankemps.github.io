@@ -17,19 +17,38 @@ To create the illusion of squad and stretch, I want to use the object's velocity
 However, skewing wont give enough of a squash and stretch impression on its own, given it will only work on on the horizontal axis. Therefore we would also need something on the vertical axis, which can be as simply as adding to the position 
 
 
+Horizontal movement
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        <img src="https://i.imgur.com/iO8KAlM.png"/>
+        <img src="https://i.imgur.com/fE1yxvo.png"/>
         <center><small>Stationary</small></center>
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/1XcnMGi.png"/>
-        <center><small>Horizontal velocity</small></center>
+        <img src="https://i.imgur.com/sojrQu2.png"/>
+        <center><small>Object moving to the right</small></center>
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/yIXIUwD.png"/>
-         <center><small>Vertical velocity</small></center>
+        <img src="https://i.imgur.com/moG9fjG.png"/>
+         <center><small>Object moving to the right</small></center>
+    </div>
+  </div>
+</div>
+
+Vertical movement
+<div class="container" style="padding: 0px">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-sm">
+        <img src="https://i.imgur.com/fE1yxvo.png"/>
+        <center><small>Stationary</small></center>
+    </div>
+    <div class="col-sm">
+        <img src="https://i.imgur.com/5WVQaWN.png"/>
+        <center><small>Object moving downwards</small></center>
+    </div>
+    <div class="col-sm">
+        <img src="https://i.imgur.com/daNsa6V.png"/>
+         <center><small>Object moving to upwards</small></center>
     </div>
   </div>
 </div>
