@@ -4,6 +4,6 @@
 {% include elements/trailer.html url=trailerpath %}
 {% endif %}
 
-##### {{page.title}} - ({{page.engine}} {{ page.date | date: "%Y" }})
+##### {{page.name}} - ({{page.engine}} {{ page.date | date: "%Y" }})
 > {{page.long_description}}
 
