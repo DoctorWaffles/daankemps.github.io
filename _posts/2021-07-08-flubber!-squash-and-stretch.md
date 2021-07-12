@@ -14,29 +14,27 @@ As a good practise to keep going on with shaders, and especially Unity's shaderg
 ##### Fundementals
 To create the illusion of squad and stretch, I want to use the object's velocity to maniuplate the mesh's vertices. So if an object starts to move I want to move the vertices into the opposite direction of where the object is going. Of course I do not want to move the entire mesh, but primarily the vertices that are the highest in the object's space, kind of resembling skewing. 
 
-However, skewing wont give enough of a squash and stretch impression on its own, given it will only work on on the horizontal axis. Therefore we would also need something on the vertical axis, which can be as simply as adding to the position 
+However, skewing wont give enough of a squash and stretch impression on its own, given it will only work on on the horizontal axis. Therefore we would also need something on the vertical axis, which in this case also would use the velocity - but then the vertical movement.
 
-
-Horizontal movement
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
-    <div class="col-sm-6">
+    <div class="col-sm">
         <img src="https://i.imgur.com/fE1yxvo.png"/>
         <center><small>Stationary</small></center>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm">
         <img src="https://i.imgur.com/sojrQu2.png"/>
         <center><small>Object moving left</small></center>
     </div>
-    <div class="col-sm-6 ">
+    <div class="col-sm">
         <img src="https://i.imgur.com/moG9fjG.png"/>
          <center><small>Object moving right</small></center>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm">
         <img src="https://i.imgur.com/5WVQaWN.png"/>
         <center><small>Object moving up</small></center>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm">
         <img src="https://i.imgur.com/daNsa6V.png"/>
          <center><small>Object moving down</small></center>
     </div>

@@ -1,16 +1,28 @@
 - title: Graduation
   from: 2020
-  to: 2020 (Wirelab, Enschede)
+  to: 2020
+  location: Wirelab, Enschede
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ['test'](www.google.com) ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
+- title: Student Assistant
+  from: 2019
+  to: 2019 
+  location:  Saxion University, Enschede
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 
 - title: Minor Skilled
-  from: 2017
-  to: 2017 (Saxion, Enschede)
+  from: 2019
+  to: 2019 
+  location:  Saxion University, Enschede
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -18,15 +30,13 @@
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 - title: Internship
-  from: 2017
-  to: 2017 (Virtual Play, Utrecht)
-  description: During this time I, got more into turn-based networking with GameSparks, but also how they ran their Indie company. Soccer nations Battle
+  from: 2018
+  to: 2019
+  location: Virtual Play, Utrecht
+  description: During my third year I  I worked on fixing several bugs and reworking some of the programming on Soccer Nations Battle, which I afterwards tested among    During this time I, got more into turn-based networking with GameSparks, but also how they ran their Indie company. Soccer nations Battle
 
 - title: Creative Media and Game Technologies
   from: 2016
-  to: 2020 (Saxion, Enschede)
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  to: 2020
+  location: Saxion University, Enschede
+  description: Bachelor degree Creative Media and Game Technologies
