@@ -8,12 +8,25 @@
     font-size: 1.25em;
 }
 
-.badge {
-    border-color: #545454 !important;
-    color: #848484 !important;
+[data-theme="dark"] {
+    .engine {
+        border-color: #bfbebe !important;
+        color: #b5b3b3 !important;
+    }
+    .tag {
+        border-color: #707070 !important;
+        color: #707070 !important;
+    }
 }
 
-.engine {
-    border-color: #bfbebe !important;
-    color: #b5b3b3 !important;
+[data-theme="light"] {
+    .engine {
+        border-color: #707070 !important;
+        color: #707070 !important;
+    }
+    .tag {
+        border-color: #bfbebe !important;
+        color: #b5b3b3 !important;
+    }
+    
 }
