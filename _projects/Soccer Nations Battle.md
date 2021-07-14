@@ -21,20 +21,47 @@ Aside of programming I also worked on some UI/UX improvements.
 In the new version (left) there are now multiple options available on the left side of the screen, which the player can navigate with their left  stick. On the right there is now a right thumbnail of the level, which the player can navigate with their right stick to select the level they would like to play.
 
 
+The new stage selection should give the player a bit more freedom on how he would like to play his game. With the thumbnail there is no longer confusion which level is which and other levels are quickly distinguishable. Next to user experience I also created scalable scripts which should allow additional options to be done quite quickly.
+
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        <img src="https://i.imgur.com/VkVswp8.png"/>
+    {% include elements/figure.html image="https://i.imgur.com/yHxtArX.png" caption="Old level selection" %}
+    
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/PLuL4hA.jpg"/>
+        {% include elements/figure.html image="https://i.imgur.com/q3H7ZQS.png" caption="New level selection" %}
+    </div>
+  </div>
+</div>
+
+Another thing 
+
+<div class="container" style="padding: 0px">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-sm">
+    {% include elements/figure.html image="https://i.imgur.com/9fBUk9n.png" caption="Hell team selection" %}
+    
+    </div>
+    <div class="col-sm">
+        {% include elements/figure.html image="https://i.imgur.com/hPzFq2Q.png" caption="Heaven team selection" %}
+       
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="col-sm">
+    {% include elements/figure.html image="https://i.imgur.com/cwINyY3.png" caption="Ship team selection" %}
+    </div>
+    <div class="col-sm">
+        {% include elements/figure.html image="https://i.imgur.com/KAC2rGW.png" caption="Underwater team selection" %}
     </div>
   </div>
 </div>
 
 
 
-The new stage selection should give the player a bit more freedom on how he would like to play his game. With the thumbnail there is no longer confusion which level is which and other levels are quickly distinguishable. Next to user experience I also created scalable scripts which should allow additional options to be done quite quickly.
+
 
 
 
@@ -43,13 +70,15 @@ Every first Wednesday of the month, there was a [Network Lunch](https://www.dutc
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-        <img src="https://i.imgur.com/VkVswp8.png"/>
+    {% include elements/figure.html image="https://i.imgur.com/VkVswp8.png" caption="Playtesting at Network Lunch" %}
+    
     </div>
     <div class="col-sm">
-        <img src="https://i.imgur.com/PLuL4hA.jpg"/>
+        {% include elements/figure.html image="https://i.imgur.com/PLuL4hA.jpg" caption="Playtesting at Network Lunch" %}
     </div>
   </div>
 </div>
+
 
 
 
