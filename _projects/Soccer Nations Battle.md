@@ -2,7 +2,6 @@
 title: Soccer Nations Battle
 tags: [Programming, Level Design, 3D]
 image: https://i.imgur.com/ChfZcaq.jpg
-description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac fringilla nunc.
 date: 2018-07-02T09:07:40+0100
 description: Soccer Nations Battle is a local multiplayer side-scrolling soccer game. Prepare for fast-paced matches with lots of goals; block, tackle or simply outsmart your opponent. 
 long_description: Soccer Nations Battle is a local multiplayer side-scrolling soccer game. Prepare for fast-paced matches with lots of goals block, tackle or simply outsmart your opponent. Play 1v1 up to 4v4 matches in this wild and hilarious party game. The more players, the more chaos, the more laughs.
