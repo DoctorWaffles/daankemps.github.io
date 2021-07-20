@@ -6,33 +6,6 @@ color: primary
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 
- <script>
-  
-        // Getting video element using jQuery
-        var video = $("#video");
-  
-        // Check if video is ready to play
-        $(video).on('canplay', function () {
-            $(video).mouseenter(function () {
-                $(this).get(0).play();
-            }).mouseleave(function () {
-                $(this).get(0).pause();
-            })
-        });
-    </script>
-    
- <div id="video-wrapper">
-        <video id="video" width="320" height="240" 
-            controls data-play="hover" muted="muted">
-            <source src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20200107020629/sample_video.mp4"
-                type="video/mp4">
-            Your browser does not 
-            support the video tag.
-        </video>
-    </div>
-
-
 {% capture list_items %}
 DOGradientColor
 DOFillAmount
