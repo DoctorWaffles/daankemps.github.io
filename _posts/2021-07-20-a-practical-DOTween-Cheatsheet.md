@@ -5,10 +5,27 @@ style: border
 color: primary  
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
-
 <script>
-window.__cfRLUnblockHandlers = true;
+    var cip = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
 </script>
+
+{% capture list_items %}
+DOGradientColor
+DOFillAmount
+DOMove
+DOColor
+DOFade
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
+
 
 
 {% assign eases = "Unset,
@@ -91,7 +108,7 @@ https://i.imgur.com/HBM618a.mp4" %}
 
 {% assign videos = videoLinks | split: "," %}
 
-### Image fades
+### DOFade
 ```DOFade(0, 1).SetEase(ease);```
 
 <div class="row">
