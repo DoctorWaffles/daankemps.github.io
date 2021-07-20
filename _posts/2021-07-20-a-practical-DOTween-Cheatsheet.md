@@ -165,8 +165,7 @@ https://i.imgur.com/xRWEQG6.mp4," %}
 </div> 
 
 
-{% assign doFillAmount = "
-https://i.imgur.com/Y01zzan.mp4,
+{% assign doFillAmount = "https://i.imgur.com/Y01zzan.mp4,
 https://i.imgur.com/stAQeEO.mp4,
 https://i.imgur.com/28vH2hq.mp4,
 https://i.imgur.com/4IiuevS.mp4,
