@@ -1,11 +1,8 @@
 <figure class="figure w-100">
-  <div class="hovervideo">
-  <video  muted preload="none" loop style="height: {{ include.height }};  width:  {{ include.height }}; overflow:hidden; display:block;">
+  <video muted autoplay loop style="height: {{ include.height }};  width:  {{ include.height }}; overflow:hidden; display:block;">
     <source type="video/mp4" src="{{ include.video }}">
   </video>
-</div>
   {%- if include.caption -%}
     <figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>
   {%- endif -%}
-
 </figure>
