@@ -1,10 +1,16 @@
 ---
-title: A practical UI DOTween cheatsheet
-tags: [Resource]
+title: A visual easing cheatsheet
+tags: [Resource, UI/UX]
 style: border
 color: primary  
-description: Bye bye slow Wordpress, hello lightning fast Jekyll!
+description: Nothing in nature moves linearly from one point to another. 
 ---
+
+For my personal use I created a cheatsheet full of eases with several modes, all with their eases. All these animations were made using [DOTween](http://dotween.demigiant.com/), a Tweening library for Unity, and were automatically generated and recorded used using Unity's [Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@2.0/manual/index.html).
+
+Nothing in nature moves linearly from one point to another. In fact, things actually accelerate or decelerate when they move. Our brains are programmed to expect this type of movement, so you should take advantage of this when making animations or user interfaces. Natural movement makes your users more comfortable with your application, leading to a better overall experience. However, avoid them unless they are too short for the end user, otherwise they will feel like the interface is running too slow. 
+
+
 
 {% capture list_items %}
 DOGradientColor
