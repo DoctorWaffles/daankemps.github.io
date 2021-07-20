@@ -6,7 +6,53 @@ color: primary
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 
+{% capture list_items %}
+DOGradientColor
+DOFillAmount
+DOMove
+DOColor
+DOFade
+{% endcapture %}
+{% include elements/list.html title="Table of Contents" type="toc" %}
 
+{% assign eases = "Unset,
+        Linear,
+        InSine,
+        OutSine,
+        InOutSine,
+        InQuad,
+        OutQuad,
+        InOutQuad,
+        InCubic,
+        OutCubic,
+        InOutCubic,
+        InQuart,
+        OutQuart,
+        InOutQuart,
+        InQuint,
+        OutQuint,
+        InOutQuint,
+        InExpo,
+        OutExpo,
+        InOutExpo,
+        InCirc,
+        OutCirc,
+        InOutCirc,
+        InElastic,
+        OutElastic,
+        InOutElastic,
+        InBack,
+        OutBack,
+        InOutBack,
+        InBounce,
+        OutBounce,
+        InOutBounce,
+        Flash,
+        InFlash,
+        OutFlash,
+        InOutFlash," %}
+
+{% assign easeArray = eases | split: "," | sort %}
 
 
 {% assign doFillAmount = "https://i.imgur.com/2G3TBqgt.mp4,
