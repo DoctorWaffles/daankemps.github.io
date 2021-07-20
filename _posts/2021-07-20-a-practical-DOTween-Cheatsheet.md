@@ -55,7 +55,7 @@ All Dotween eases
 
 <div class="row">
 {% for ease in easeArray %}
-    <div class="col-sm">
+    <div class="col-sm-3">
   {% include elements/video_figure.html video="https://i.imgur.com/IjF7Leb.mp4" width="100%" height="100%" caption="InBack" %}
     </div>
 {% endfor %}
