@@ -83,7 +83,7 @@ https://i.imgur.com/nsU8B1U.mp4,
 https://i.imgur.com/CpyZsmR.mp4,
 https://i.imgur.com/URpyOQR.mp4,
 https://i.imgur.com/dwb4tlG.mp4,
-https://i.imgur.com/HBM618a.mp4"}
+https://i.imgur.com/HBM618a.mp4" %}
 
 {% assign videoLinks = eases | split: "," %}
 
@@ -92,7 +92,7 @@ https://i.imgur.com/HBM618a.mp4"}
 
 <div class="row">
 {% for ease in easeArray %}
-    <div class="col-sm-3">
+    <div class="col-sm-2">
     {% assign video = videoLinks[{{forloop.index0}}] %}
     {% assign caption = ease %}
     {% include elements/video_figure.html caption=caption video=video width="100%" height="100%"   %}
