@@ -7,6 +7,7 @@ description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 
 
+
 {% assign eases = "Unset,
         Linear,
         InSine,
@@ -100,14 +101,3 @@ https://i.imgur.com/HBM618a.mp4" %}
 {% endfor %}
 </div> 
 
-<script>
-$(document).ready(function() {
-  $(".myvideos").on("mouseover", function(event) {
-    this.play();
-
-  }).on('mouseout', function(event) {
-    this.pause();
-
-  });
-})
-</script>
