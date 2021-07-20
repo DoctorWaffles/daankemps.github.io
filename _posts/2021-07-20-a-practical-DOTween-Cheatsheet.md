@@ -85,7 +85,7 @@ https://i.imgur.com/URpyOQR.mp4,
 https://i.imgur.com/dwb4tlG.mp4,
 https://i.imgur.com/HBM618a.mp4" %}
 
-{% assign videoLinks = eases | split: "," %}
+{% assign videos = videoLinks | split: "," %}
 
 ### Image fades
 ```DOFade(0, 1).SetEase(ease);```
@@ -93,9 +93,9 @@ https://i.imgur.com/HBM618a.mp4" %}
 <div class="row">
 {% for ease in easeArray %}
     <div class="col-sm-2">
-    {% assign video = videoLinks[{{forloop.index0}}] %}
+    {% assign videolink = videos[forloop.index0] %}
     {% assign caption = ease %}
-    {% include elements/video_figure.html caption=caption video=video width="100%" height="100%"   %}
+    {% include elements/video_figure.html caption=caption video=videolink width="100%" height="100%"   %}
     </div>
 {% endfor %}
 </div> 
