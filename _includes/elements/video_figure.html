@@ -1,6 +1,6 @@
 <figure class="figure w-100">
-  <div class="test">
-  <video  muted autoplay loop style="height: {{ include.height }};  width:  {{ include.height }}; overflow:hidden; display:block;">
+  <div class="hovervideo">
+  <video  muted preload="none" loop style="height: {{ include.height }};  width:  {{ include.height }}; overflow:hidden; display:block;">
     <source type="video/mp4" src="{{ include.video }}">
   </video>
 </div>

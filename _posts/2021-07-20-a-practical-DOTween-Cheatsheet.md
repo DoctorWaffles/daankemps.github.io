@@ -6,14 +6,14 @@ color: primary
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 <script>
-    var cip = $(".test").hover( hoverVideo, hideVideo );
+    var cip = $(".hovervideo").hover( hoverVideo, hideVideo );
 
 function hoverVideo(e) {  
-    $('test', this).get(0).play(); 
+    $('hovervideo', this).get(0).play(); 
 }
 
 function hideVideo(e) {
-    $('test', this).get(0).pause(); 
+    $('hovervideo', this).get(0).pause(); 
 }
 </script>
 
@@ -109,7 +109,8 @@ https://i.imgur.com/HBM618a.mp4" %}
 {% assign videos = videoLinks | split: "," %}
 
 ### DOFade
-```DOFade(0, 1).SetEase(ease);```
+> Fades the target's alpha to the given value <br >
+> DOFade(0, 1).SetEase(ease);
 
 <div class="row">
 {% for ease in easeArray %}
