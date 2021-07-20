@@ -96,7 +96,6 @@ https://i.imgur.com/HBM618a.mp4" %}
 {% assign doFadeLinks = doFade | split: "," %}
 
 ### DOFade
-> Fades the target's alpha to the given value <br >
 > DOFade(0, 1).SetEase(ease);
 
 <div class="row">
@@ -147,19 +146,75 @@ https://i.imgur.com/Nqv7wqf.mp4,
 https://i.imgur.com/kA4lVsY.mp4,
 https://i.imgur.com/27Cgmz5.mp4,
 https://i.imgur.com/JQtivTA.mp4,
-https://i.imgur.com/xRWEQG6.mp4 %}
+https://i.imgur.com/xRWEQG6.mp4," %}
 
 
 {% assign doColorLinks = doColor | split: "," %}
 
 ### DOColor
-> Fades the target's alpha to the given value <br >
 > DOColor(0, 1).SetEase(ease);
 
 <div class="row">
 {% for ease in easeArray %}
     <div class="col-sm-2">
     {% assign videolink = doColorLinks[forloop.index0] %}
+    {% assign caption = ease %}
+    {% include elements/video_figure.html caption=caption video=videolink width="100%" height="100%"   %}
+    </div>
+{% endfor %}
+</div> 
+
+
+{% assign doFillAmount = "
+https://i.imgur.com/Y01zzan.mp4,
+https://i.imgur.com/stAQeEO.mp4,
+https://i.imgur.com/28vH2hq.mp4,
+https://i.imgur.com/4IiuevS.mp4,
+https://i.imgur.com/HqGH5oH.mp4,
+https://i.imgur.com/S2CalgN.mp4,
+https://i.imgur.com/ljABwCO.mp4,
+https://i.imgur.com/CibpUPG.mp4,
+https://i.imgur.com/wGpxnjl.mp4,
+https://i.imgur.com/j3nuS7Y.mp4,
+https://i.imgur.com/M8sWSEj.mp4,
+https://i.imgur.com/tCNeA7w.mp4,
+https://i.imgur.com/Jtz5Dpk.mp4,
+https://i.imgur.com/24hkK7b.mp4,
+https://i.imgur.com/OOojhXJ.mp4,
+https://i.imgur.com/yT2exNB.mp4,
+https://i.imgur.com/jeDFBC6.mp4,
+https://i.imgur.com/PFZT9DI.mp4,
+https://i.imgur.com/v3bdjHB.mp4,
+https://i.imgur.com/PZVQe7w.mp4,
+https://i.imgur.com/UyJAhCU.mp4,
+https://i.imgur.com/tSPXIud.mp4,
+https://i.imgur.com/SLaXbic.mp4,
+https://i.imgur.com/7cdNsRZ.mp4,
+https://i.imgur.com/SLhNvwO.mp4,
+https://i.imgur.com/TmiR5ey.mp4,
+https://i.imgur.com/ekVMHlf.mp4,
+https://i.imgur.com/6aZKI4n.mp4,
+https://i.imgur.com/WndkiEr.mp4,
+https://i.imgur.com/j9eXEAQ.mp4,
+https://i.imgur.com/pG2vm8M.mp4,
+https://i.imgur.com/0mhY89p.mp4,
+https://i.imgur.com/u0hVMP8.mp4,
+https://i.imgur.com/xXCkOzj.mp4,
+https://i.imgur.com/T0tFVWc.mp4,
+https://i.imgur.com/SpVEg5f.mp4,
+https://i.imgur.com/SDYQCH1.mp4,
+https://i.imgur.com/1TgBaDP.mp4," %}
+
+
+{% assign doFillAmountLinks = doFillAmount | split: "," %}
+
+### DOFillAmount
+> DOFillAmount(1, 1).SetEase(ease);
+
+<div class="row">
+{% for ease in easeArray %}
+    <div class="col-sm-2">
+    {% assign videolink = doFillAmountLinks[forloop.index0] %}
     {% assign caption = ease %}
     {% include elements/video_figure.html caption=caption video=videolink width="100%" height="100%"   %}
     </div>
