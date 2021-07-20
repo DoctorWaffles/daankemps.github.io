@@ -100,4 +100,3 @@ https://i.imgur.com/HBM618a.mp4" %}
 {% endfor %}
 </div> 
 
-
