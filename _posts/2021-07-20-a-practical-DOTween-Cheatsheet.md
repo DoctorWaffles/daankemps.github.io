@@ -1,19 +1,19 @@
 ---
-title: A practical DOTween Cheatsheet
+title: A practical UI DOTween cheatsheet
 tags: [Resource]
 style: border
 color: primary  
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 <script>
-    var cip = $(".video").hover( hoverVideo, hideVideo );
+    var cip = $(".test").hover( hoverVideo, hideVideo );
 
 function hoverVideo(e) {  
-    $('video', this).get(0).play(); 
+    $('test', this).get(0).play(); 
 }
 
 function hideVideo(e) {
-    $('video', this).get(0).pause(); 
+    $('test', this).get(0).pause(); 
 }
 </script>
 
