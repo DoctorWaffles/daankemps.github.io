@@ -6,14 +6,15 @@ color: primary
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 <script>
-    var cip = $(".hovervideo").hover( hoverVideo, hideVideo );
+var cip = $(".video").hover( hoverVideo, hideVideo );
 
 function hoverVideo(e) {  
-    $('hovervideo', this).get(0).play(); 
+    $('video', this).get(0).play(); 
 }
 
 function hideVideo(e) {
-    $('hovervideo', this).get(0).pause(); 
+    $('video', this).get(0).pause(); 
+}
 }
 </script>
 
@@ -25,6 +26,17 @@ DOColor
 DOFade
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
+
+
+<div class="video">
+    <video class="thevideo" loop preload="none">
+      <source src="https://giant.gfycat.com/VerifiableTerrificHind.mp4" type="video/mp4">
+      <source src="https://giant.gfycat.com/VerifiableTerrificHind.webm" type="video/webm">
+    Your browser does not support the video tag.
+    </video>
+  </div>
+  Hover mouse over video. Desktop only [ Obviously! ;) ]
+</div>
 
 
 
