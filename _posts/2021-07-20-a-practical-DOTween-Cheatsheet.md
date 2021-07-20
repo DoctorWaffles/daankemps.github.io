@@ -6,6 +6,9 @@ color: primary
 description: Bye bye slow Wordpress, hello lightning fast Jekyll!
 ---
 
+<script>
+window.__cfRLUnblockHandlers = true;
+</script>
 
 
 {% assign eases = "Unset,
