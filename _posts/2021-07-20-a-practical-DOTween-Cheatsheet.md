@@ -10,14 +10,19 @@ For my personal use I created a cheatsheet full of eases with several modes, all
 
 Nothing in nature moves linearly from one point to another. In fact, things actually accelerate or decelerate when they move. Our brains are programmed to expect this type of movement, so you should take advantage of this when making animations or user interfaces. Natural movement makes your users more comfortable with your application, leading to a better overall experience. However, avoid them unless they are too short for the end user, otherwise they will feel like the interface is running too slow. 
 
+All videos are running on 60 fps, in case you have trouble viewing them consider changing toggling in between the dark and light mode.
 
 
 {% capture list_items %}
-DOGradientColor
-DOFillAmount
-DOMove
-DOColor
-DOFade
+Movement
+Scale
+Rotation
+Color
+Gradient
+Jump
+Shake position
+Shake rotation
+Shake scale
 {% endcapture %}
 {% include elements/list.html title="Table of Contents" type="toc" %}
 
@@ -62,51 +67,12 @@ DOFade
 
 
 
-{% assign doFillAmount = "https://i.imgur.com/2G3TBqg.mp4,
-https://i.imgur.com/ZJ3JjMO.mp4,
-https://i.imgur.com/0ua7CrA.mp4,
-https://i.imgur.com/Fwk9iMN.mp4,
-https://i.imgur.com/x9rPCA1.mp4,
-https://i.imgur.com/3wZU3kr.mp4,
-https://i.imgur.com/moTWe1D.mp4,
-https://i.imgur.com/L0JKVae.mp4,
-https://i.imgur.com/UX2FMOH.mp4,
-https://i.imgur.com/29s2FkQ.mp4,
-https://i.imgur.com/lxkbVye.mp4,
-https://i.imgur.com/emhKmDO.mp4,
-https://i.imgur.com/yHT7YQX.mp4,
-https://i.imgur.com/R2S3hJz.mp4,
-https://i.imgur.com/aEskBRZ.mp4,
-https://i.imgur.com/Sd28yHy.mp4,
-https://i.imgur.com/4xCK9RZ.mp4,
-https://i.imgur.com/bVC5Qqj.mp4,
-https://i.imgur.com/hXgzdUm.mp4,
-https://i.imgur.com/vkTP1n2.mp4,
-https://i.imgur.com/isml7UD.mp4,
-https://i.imgur.com/qj8Ltiz.mp4,
-https://i.imgur.com/ZI3QSUW.mp4,
-https://i.imgur.com/4cCt9Iv.mp4,
-https://i.imgur.com/4OCd2cD.mp4,
-https://i.imgur.com/dFKY8Sm.mp4,
-https://i.imgur.com/RHDgmNW.mp4,
-https://i.imgur.com/y7TxIkZ.mp4,
-https://i.imgur.com/MUlYecT.mp4,
-https://i.imgur.com/mGSYOqB.mp4,
-https://i.imgur.com/aPA10qT.mp4,
-https://i.imgur.com/X7lMz9f.mp4,
-https://i.imgur.com/U0sedny.mp4,
-https://i.imgur.com/IZGW2Xp.mp4,
-https://i.imgur.com/PwPiuZJ.mp4,
-https://i.imgur.com/eFr4p8p.mp4,
-https://i.imgur.com/nXpPLMK.mp4,
-https://i.imgur.com/HLcNoiF.mp4," %}
+{% assign doFillAmount = "https://i.imgur.com/ni4D2wK.mp4, https://i.imgur.com/k0e00Mv.mp4, https://i.imgur.com/p6pJn8N.mp4, https://i.imgur.com/CdRwRTZ.mp4, https://i.imgur.com/0dsmaTQ.mp4, https://i.imgur.com/rYRlApl.mp4, https://i.imgur.com/Gr5DCOi.mp4, https://i.imgur.com/Hnxy6S6.mp4, https://i.imgur.com/nUwbjEO.mp4, https://i.imgur.com/xIoxY3S.mp4, https://i.imgur.com/Sx1jdfs.mp4, https://i.imgur.com/7l3I3KB.mp4, https://i.imgur.com/l53OjwL.mp4, https://i.imgur.com/Zo0KjJQ.mp4, https://i.imgur.com/cww0sMg.mp4, https://i.imgur.com/s5f5neE.mp4, https://i.imgur.com/r0VnO4m.mp4, https://i.imgur.com/Ltb2Zgx.mp4, https://i.imgur.com/TRQlues.mp4, https://i.imgur.com/fGb18Es.mp4, https://i.imgur.com/r8q6qKK.mp4, https://i.imgur.com/FXbEnIX.mp4, https://i.imgur.com/oii2Uii.mp4, https://i.imgur.com/iX5fdRX.mp4, https://i.imgur.com/QCHBMv0.mp4, https://i.imgur.com/ftcq4nn.mp4, https://i.imgur.com/YwDW375.mp4, https://i.imgur.com/kJuqjLv.mp4, https://i.imgur.com/C3lgakt.mp4, https://i.imgur.com/CUTWYso.mp4, https://i.imgur.com/P2W5mIA.mp4, https://i.imgur.com/TjRLjfe.mp4, https://i.imgur.com/ftytlW1.mp4, https://i.imgur.com/kVcldFT.mp4, https://i.imgur.com/htCPoJv.mp4, https://i.imgur.com/CU9vd91.mp4, https://i.imgur.com/iYI9sKz.mp4, https://i.imgur.com/oXWtGI4.mp4," %}
 
 
 {% assign doFillAmountLinks = doFillAmount | split: "," %}
 
-### DOFillAmount
-> DOFillAmount(1, 1).SetEase(ease);
-
+### Movement
 <div class="row">
 {% for ease in easeArray %}
     <div class="col-sm-2">
