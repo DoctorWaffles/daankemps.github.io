@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proi
 
 {% assign rotationArray = rotation | split: "," %}
 
-### Scale 
+### Rotation 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proin tincidunt lacus varius malesuada rutrum. Cras molestie faucibus quam, non tristique lacus maximus ut.
 <div class="row">
 {% for ease in easeArray %}
