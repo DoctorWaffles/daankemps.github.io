@@ -39,6 +39,7 @@ Shake scale
 {% assign colorArray = color | split: "," %}
 
 ### Color 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proin tincidunt lacus varius malesuada rutrum. Cras molestie faucibus quam, non tristique lacus maximus ut.
 <div class="row">
 {% for ease in easeArray %}
     <div class="col-sm-2">
@@ -50,24 +51,21 @@ Shake scale
 </div> 
 
 
+<!-- https://imgur.com/a/F2RJEfC -->
+{% assign scale = "https://i.imgur.com/hL7yuKH.mp4, https://i.imgur.com/b4DQG50.mp4, https://i.imgur.com/bD9Yj9h.mp4, https://i.imgur.com/SmWNc2U.mp4, https://i.imgur.com/V64AjET.mp4, https://i.imgur.com/djCu9Tm.mp4, https://i.imgur.com/ibznE8T.mp4, https://i.imgur.com/7ExmAOk.mp4, https://i.imgur.com/Ng8pN2H.mp4, https://i.imgur.com/7PIHdPC.mp4, https://i.imgur.com/w6FmPPF.mp4, https://i.imgur.com/lbiFN0F.mp4, https://i.imgur.com/ZTr5H9W.mp4, https://i.imgur.com/DKG84WK.mp4, https://i.imgur.com/d4gZEs5.mp4, https://i.imgur.com/geosxC4.mp4, https://i.imgur.com/HUFuZXb.mp4, https://i.imgur.com/wkVnFd7.mp4, https://i.imgur.com/MrCi6iE.mp4, https://i.imgur.com/Fnz8kQH.mp4, https://i.imgur.com/9M2RBbL.mp4, https://i.imgur.com/ea9kPYu.mp4, https://i.imgur.com/19zoLYE.mp4, https://i.imgur.com/cJOYCGI.mp4, https://i.imgur.com/Of2ViR2.mp4, https://i.imgur.com/s2IxPAr.mp4, https://i.imgur.com/qRbXr9S.mp4, https://i.imgur.com/550ZKCz.mp4, https://i.imgur.com/diXjCSB.mp4, https://i.imgur.com/VMFAEYP.mp4, https://i.imgur.com/YPInDgS.mp4, https://i.imgur.com/jh6V4Nz.mp4, https://i.imgur.com/DVuVikU.mp4, https://i.imgur.com/HfXEfrb.mp4, https://i.imgur.com/G7Y4ckQ.mp4" %}
 
 
+{% assign scaleArray = color | split: "," %}
 
-
-{% assign movement = "https://i.imgur.com/ni4D2wK.mp4, https://i.imgur.com/k0e00Mv.mp4, https://i.imgur.com/p6pJn8N.mp4, https://i.imgur.com/CdRwRTZ.mp4, https://i.imgur.com/0dsmaTQ.mp4, https://i.imgur.com/rYRlApl.mp4, https://i.imgur.com/Gr5DCOi.mp4, https://i.imgur.com/Hnxy6S6.mp4, https://i.imgur.com/nUwbjEO.mp4, https://i.imgur.com/xIoxY3S.mp4, https://i.imgur.com/Sx1jdfs.mp4, https://i.imgur.com/7l3I3KB.mp4, https://i.imgur.com/l53OjwL.mp4, https://i.imgur.com/Zo0KjJQ.mp4, https://i.imgur.com/cww0sMg.mp4, https://i.imgur.com/s5f5neE.mp4, https://i.imgur.com/r0VnO4m.mp4, https://i.imgur.com/Ltb2Zgx.mp4, https://i.imgur.com/TRQlues.mp4, https://i.imgur.com/fGb18Es.mp4, https://i.imgur.com/r8q6qKK.mp4, https://i.imgur.com/FXbEnIX.mp4, https://i.imgur.com/oii2Uii.mp4, https://i.imgur.com/iX5fdRX.mp4, https://i.imgur.com/QCHBMv0.mp4, https://i.imgur.com/ftcq4nn.mp4, https://i.imgur.com/YwDW375.mp4, https://i.imgur.com/kJuqjLv.mp4, https://i.imgur.com/C3lgakt.mp4, https://i.imgur.com/CUTWYso.mp4, https://i.imgur.com/P2W5mIA.mp4, https://i.imgur.com/TjRLjfe.mp4, https://i.imgur.com/ftytlW1.mp4, https://i.imgur.com/kVcldFT.mp4, https://i.imgur.com/htCPoJv.mp4, https://i.imgur.com/CU9vd91.mp4, https://i.imgur.com/iYI9sKz.mp4, https://i.imgur.com/oXWtGI4.mp4," %}
-
-
-{% assign movementArray = movement | split: "," %}
-
-### Movement [Imgur Album](google.com)
+### Scale 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proin tincidunt lacus varius malesuada rutrum. Cras molestie faucibus quam, non tristique lacus maximus ut.
 <div class="row">
 {% for ease in easeArray %}
     <div class="col-sm-2">
-    {% assign videolink = movementArray[forloop.index0] %}
+    {% assign videolink = scaleArray[forloop.index0] %}
     {% assign caption = ease %}
     {% include elements/video_figure.html caption=caption video=videolink width="100%" height="100%"   %}
     </div>
 {% endfor %}
 </div> 
-
 
