@@ -13,24 +13,6 @@ Nothing in nature moves linearly from one point to another. In fact, things actu
 All videos are running on 60 fps, in case you have trouble viewing them consider changing toggling in between the dark and light mode.
 
 
-<script>
-    $(document).ready(function() {       
-        $('.video').each(function(i, obj) {
-            $(this).on("mouseover", function() { hoverVideo(i); });
-            $(this).on("mouseout", function() { hideVideo(i); });
-        });
-});
-
-        function hoverVideo(i) {  
-                $('.hovervideo')[i].play(); 
-        }
-
-        function hideVideo(i) {
-                $('.hovervideo')[i].currentTime = 0; 
-                $('.hovervideo')[i].pause(); 
-        }
-</script>
-
 
 
 
