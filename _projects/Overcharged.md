@@ -15,16 +15,17 @@ Overcharged was a university project in the second quarter of my second year in 
 
 As we took Rocket League as an inspiration, the team wanted a similar looking crowd. I invested some time in creating a billboard shader to recreate such a crowd. To assign each billboard a different color, within their team color range, I used a small script. Next to the the crowd shader the team wanted some indication around the playfield without obstructing the view of the players. I created a basic shader with a noise texture that scrolled with the use of a sine wave, creating a flowing 'energy field'. As for the modelling, I focussed mostly on the arena and its stand(s). I kept the field architecture simple and clean, to not distract the players. The only feature the field offers is an indication on which side the player belongs. Both field assets and stand assets were made modular.
 
-<div class="container" style="padding: 0px">
-  <div class="row" style="margin-bottom: 20px;">
+<div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-          <video muted autoplay loop style="height: 250px  width: 100%;  overflow:hidden;    display:block;">
-   <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
+        <video muted autoplay loop style="height: 250px  width: 100%;  overflow:hidden;    display:block;">
+            <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
+        </video>
     </div>
-    <div class="col-sm">
-          <video muted autoplay loop style="height: 250px  width: 100%;  overflow:hidden;    display:block;">
-   <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
-  </div>
+     <div class="col-sm">
+        <video muted autoplay loop style="height: 250px  width: 100%;  overflow:hidden;    display:block;">
+            <source type="video/mp4" src="https://i.imgur.com/pcssafq.mp4">
+        </video>
+    </div>
 </div>
 
 
