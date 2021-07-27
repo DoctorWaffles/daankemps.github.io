@@ -19,12 +19,15 @@ During this project I was responsible for the game and level design, as the game
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-    {% include elements/figure.html image="https://i.imgur.com/tjXYmw8.gif" caption="Color changing mechanic" %}
+        {% include elements/figure.html image="https://i.imgur.com/tjXYmw8.gif" caption="Color changing mechanic" %}
     </div>
     <div class="col-sm">
-        {% include elements/figure.html image="https://i.imgur.com/Bvun0Ky.gif" caption="Lever mechanic" %}
+        {% include elements/figure.html image="https://i.imgur.com/5msb6vp.gif" caption="Lever mechanic" %}
     </div>
-  </div>
+    <div class="col-sm">
+        {% include elements/figure.html image="  https://i.imgur.com/l2lSYiw.gif" caption="Following camera" %}
+    </div>
+</div>
 
 Another thing I did during the early development stage was to create a basic user interface wireframe. Once the user interface was approved and the engine had its scripting API to it, I also implemented the entire UI, with 2D assets from another artist, using LUA in the scripting API I was provided.
 
