@@ -8,6 +8,9 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-loading-lazy
+  - jekyll-minifier
 nav_exclude:
   - pages/tags.html
   - pages/404.html
