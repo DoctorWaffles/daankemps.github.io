@@ -25,11 +25,11 @@ During this project I was responsible for the game and level design, as the game
         {% include elements/figure.html image="https://i.imgur.com/5msb6vp.gif" caption="Lever mechanic" %}
     </div>
     <div class="col-sm">
-        {% include elements/figure.html image="  https://i.imgur.com/l2lSYiw.gif" caption="Following camera" %}
+        {% include elements/figure.html image="https://i.imgur.com/6w3oWr1.gif" caption="Following camera" %}
     </div>
 </div>
 
-Another thing I did during the early development stage was to create a basic user interface wireframe. Once the user interface was approved and the engine had its scripting API to it, I also implemented the entire UI, with 2D assets from another artist, using LUA in the scripting API I was provided.
+Another thing I did during the early development stage was to create a basic user interface wireframe. Once the user interface was approved and the engine had its scripting API added to it, I also implemented the entire user interface, with 2D assets from another artist, to the game using LUA with the scripting API I was provided.
 
 
 <div class="container" style="padding: 0px">
