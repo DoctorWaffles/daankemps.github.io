@@ -1,6 +1,12 @@
-// lozad
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
+$(document).ready(function() {
+  $(".myvideos").on("mouseover", function(event) {
+    this.play();
+
+  }).on('mouseout', function(event) {
+    this.pause();
+
+  });
+})
 
 const STORAGE_KEY = "theme";
 const THEME_ATTR  = "data-theme";
