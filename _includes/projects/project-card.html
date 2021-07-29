@@ -1,9 +1,9 @@
-<div class="wow animated fadeIn" data-wow-delay=".15s">
+<div class="wow animated fadeIn" data-wow-delay=".4s">
   {% if project_url contains "github" %}
-  <a href="{{ project_url }}" target="_blank" class="project card text-themed">
-    {% else %}
+    <a href="{{ project_url }}" target="_blank"  rel="noreferrer noopener" class="project card text-themed">
+  {% else %}
     <a href="{{ project_url }}" class="project card text-themed">
-      {% endif %}
+  {% endif %}
 
     {%- if project_img -%}
     <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
