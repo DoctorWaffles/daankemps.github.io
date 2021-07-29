@@ -9,7 +9,7 @@ weight: 3
 Hi I am **{{ site.author.name }}** :wave:,<br>
 Initially started as an artist and designer, however over the course of my study and free time I discovered that programming could add way more to that mixture. Nowadays I see myself as a creative developer or a technical artist. I like to be busy with creating games and prototypes, game design, procedural generation, networking and more cool stuff!
 
-Feel free to [contact me](mailto:contact@daankemps.com) or download my [resume](/assets/media/files/resume.pdf).
+Feel free to [contact me](mailto:contact@daankemps.com) or download my [resume](/assets/files/resume.pdf){:target="_blank"}{:rel="noopener noreferrer"}.
 
 <br>
 #### **Skills & Software**
