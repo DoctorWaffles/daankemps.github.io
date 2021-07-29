@@ -17,6 +17,14 @@
         border-color: #707070 !important;
         color: #707070 !important;
     }
+
+    .timeline-body:after {
+        background-color: #dddddd;
+    }
+
+    .timeline-body .timeline-item:after {
+        border: 4px solid #f1f1f1;
+    }
 }
 
 [data-theme="light"] {
@@ -28,5 +36,12 @@
         border-color: #bfbebe !important;
         color: #b5b3b3 !important;
     }
-    
+
+    .timeline-body:after {
+        background-color: #0b141d;
+    }
+
+    .timeline-body .timeline-item:after {
+        border: 4px solid #0f1b27;
+    }
 }
