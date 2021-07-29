@@ -1,0 +1,8 @@
+<figure class="figure w-100">
+  <video muted loop autoplay style="height:{{include.height}}; width:{{include.height}}; overflow:hidden; display:block;">
+    <source type="video/mp4" src="{{include.video}}">
+  </video>
+  {%- if include.caption -%}
+    <figcaption class="figure-caption text-center">{{ include.caption }}</figcaption>
+  {%- endif -%}
+</figure>

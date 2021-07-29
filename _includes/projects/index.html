@@ -1,0 +1,27 @@
+<div class="card-columns m-3 mt-5">
+  {% assign allprojects = site.projects | concat: site.remote-projects %}
+  {% assign sortedProjects = allprojects | sort: 'date' | reverse %}
+  {% for project in sortedProjects}
+
+
+    {%- assign project_id    = project.title | slugify -%}
+    {%- assign project_img   = project.image -%}
+    {%- assign project_name  = project.title -%}
+    {%- assign project_desc  = project.description -%}
+    {%- assign project_tags = project.tags -%}
+    {%- assign project_engine = project.engine -%}
+    {%- assign project_date  = project.date -%}
+
+    {%- if project.remote_url -%}
+      {%- assign project_url = project.remote_url -%}
+    {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+    {%- endif -%}
+
+    
+
+    {% include projects/project-card.html %}
+
+  {% endfor %}
+
+</div>

@@ -1,0 +1,54 @@
+---
+title: Daan Kemps
+subtitle: Creative developer or Technical artist, it's just a title
+description: I like to be busy with creating games and prototypes, game design, procedural generation, networking and more cool stuff!
+url: https://www.daankemps.com
+baseurl: ''
+remote_theme: YoussefRaafatNasry/portfolYOU
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+author:
+  name: Daan Kemps
+  image: https://i.imgur.com/IEppGXx.jpg
+  email: contact@daankemps.com
+  github: DoctorWaffles
+  linkedin: daan-kemps-829205159
+  steam: daankemps
+  discord: 124970019493904380
+  facebook: daan.kemps.5
+  lastfm: daankemps
+permalink: /blog/:title
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  remote-projects:
+    output: false
+disqus:
+  shortname: your-short-name-disqus
+analytics:
+  enabled: true
+  google:
+    tracking_id: G-GC1LTVDBKG
+defaults:
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: posts
+    values:
+      comments: false
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - '*.log'
