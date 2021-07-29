@@ -1,3 +1,7 @@
+// lozad
+const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+
 const STORAGE_KEY = "theme";
 const THEME_ATTR  = "data-theme";
 const QUERY_KEY   = "(prefers-color-scheme: dark)";
