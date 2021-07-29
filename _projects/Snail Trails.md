@@ -21,7 +21,7 @@ During this project I was responsible for the game and level design, as the game
     <div class="col-sm">
         {% include elements/figure.html image="https://i.imgur.com/F74lPUz.gif" caption="Initial idea" %}
     </div>
-    <div class="col-sm">
+    <div class="col-sm" style="margin: 1rem auto;">
      <p> Initially the idea was to have two contesting players over a course, similar to Dots & Boxes, however after quick testing it was quickly discovered that a singleplayer puzzle game was a way better, less limiting and more fun solution.</p>
     </div>
 </div>
