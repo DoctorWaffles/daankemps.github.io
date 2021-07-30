@@ -11,9 +11,7 @@ engine: OpenGL
 
 {% include elements/intro.md %}
 
-EvadR was the first university project in which we had to create a 2D arcade game. We were given one week of time for development with a team of two designers/artists and one programmers. 
-
-During this short project my task was to balance out the upgrades, some 2D art and sound.
+EvadR was the first university project in which we had to create a 2D arcade game. We were given one week of time for development with a team of two designers/artists and one programmers. During this short project my task was to balance out the upgrades, some 2D art and sound.
 
 {% capture carousel_images %}
 https://i.imgur.com/Q4ssuVg.png

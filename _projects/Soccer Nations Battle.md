@@ -18,7 +18,7 @@ During my third year I was lucky enough to join [Virtual Play](https://virtualpl
 Furthermore I worked on implement a new localisation system, as the initial localization system had its flaws, so we decided to use the [I2 Localization plugin](http://inter-illusion.com/tools/i2-localization/){:target="_blank"}{:rel="noopener noreferrer"} from the Unity Asset store. I2 Localization provided an easy to use synchronization between an excel sheet (which we located at our Google Drive) for each language strings and keys.
 
 
-Aside of programming I also worked on some UI/UX improvements. One of the main parts I worked on was improving the userflow from starting up the game, selecting a level and team selection. Previously the userflow had little detail about which level was selected and there were no additional options. The new stage selection gave the player a bit more freedom on how he would like to play his game. With the additional thumbnail on the right there was no longer any confusion which level was selected, as they were quickly distinguishable. 
+<!-- Aside of programming I also worked on some UI/UX improvements. One of the main parts I worked on was improving the userflow from starting up the game, selecting a level and team selection. Previously the userflow had little detail about which level was selected and there were no additional options. The new stage selection gave the player a bit more freedom on how he would like to play his game. With the additional thumbnail on the right there was no longer any confusion which level was selected, as they were quickly distinguishable. 
 <div class="container" style="padding: 0px">
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
@@ -58,7 +58,7 @@ Furthermore I implemented a team selection scene for the selected level.
 
 
 
-
+ -->
 
 
 Throughout my internship at Virtual Play, I also participated in the Dutch Game Garden's [Network Lunches](https://www.dutchgamegarden.nl/project/network-lunch/){:target="_blank"}{:rel="noopener noreferrer"}. The network lunches attracted creative professionals, teachers, project leaders, future interns, and potential clients. During all the network lunches we played Soccer Nations: Battle together with or against other attendees, wrote down bugs, spectated others playing and asked for general feedback which we then further discussed and implemented.
