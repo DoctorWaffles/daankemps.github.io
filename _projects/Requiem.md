@@ -6,6 +6,7 @@ engine: Unity
 description: Requiem is a story based RPG in which you play a gravedigger, the only remaining inhabitant of a cursed village deep in the mountains called Dunstan. 
 long_description: Requiem is a story based RPG in which you play a gravedigger, the only remaining inhabitant of a cursed village deep in the mountains called Dunstan. You have sworn to find out why the village is haunted by all those restless souls that are now roaming around the tunnels of Dunstan and to put them all to rest.
 date: 2017-08-02
+trailer: requiem.mp4
 ---
 
 {% include elements/intro.md %}
