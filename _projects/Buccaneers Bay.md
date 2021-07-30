@@ -12,19 +12,6 @@ trailer: buccaneers_bay.mp4
 {% include elements/intro.md %}
 
 Buccaneer’s Bay was a university project in the first quarter of the second year in which we had to create an arcade game in Unity. We were given three weeks of time for development with a team of four designers/artists and two programmers. In this project we took some inspiration from the ship fights in Assassin’s Creed 4: Black Flag and simplified it to match an arcady style. During this project I was mostly responsible for some 3D assets, the terrain and primarily the particles.
-<!-- <div class="container" style="padding: 0px">
-  <div class="row" style="margin-bottom: 20px;">
-    <div class="col-sm">
-        {% include elements/figure.html image="https://i.imgur.com/yKs1aCx.mp4" caption="Firing" %}
-    </div>
-    <div class="col-sm">
-        {% include elements/figure.html image="https://i.imgur.com/8DDU4aU.gif" caption="Water impact" %}
-    </div>
-    <div class="col-sm">
-        {% include elements/figure.html image="https://i.imgur.com/NfzGuc4.mp4" caption="Following camera" %}
-    </div>
-</div> -->
-
 
 {% capture carousel_images %}
 https://i.imgur.com/hB4OBJK.png
