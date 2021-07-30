@@ -4,6 +4,12 @@ tags: [Resource, UI/UX]
 style: border
 color: primary  
 description: Nothing in nature moves linearly from one point to another. 
+
+accordion: 
+  - title: this is item 1
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  - title: this is item 2
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---
 
 I use tweens in my 
@@ -61,6 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proi
 
 {% assign rotationArray = rotation | split: "," %}
 
+
 ### Rotation 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proin tincidunt lacus varius malesuada rutrum. Cras molestie faucibus quam, non tristique lacus maximus ut.
 <div class="row">
@@ -73,3 +80,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut dapibus sem. Proi
 {% endfor %}
 </div> 
 
+{% include accordion.html %}
