@@ -1,5 +1,5 @@
 ---
-title: Landscape Test
+title: Landscape
 tags: [VR]
 roles: [Game Designer, Artist]
 image: https://i.imgur.com/2xpnBQ8.jpeg
@@ -12,5 +12,5 @@ trailer: turbine_trouble.mp4
 ---
 
 
-{% include elements/landscape_project.md %}
+{% include elements/landscape_project.html %}
 
