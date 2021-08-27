@@ -1,8 +1,13 @@
 <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm">
-       <p>Test</p>
+        {% if page.trailer %}
+        {% assign trailerpath = trailerpath | append: "/assets/media/" | append: page.trailer %}
+        {% include elements/trailer.html url=trailerpath %}
+        {% endif %}
     </div>
-     <div class="col-sm">
-        {% include elements/intro.md %}
+    <div class="col-sm">
+        ## {{page.title}}
+        <p class="text-muted">{{page.engine}}, {{ page.date | date: "%Y" }}</p>
+        > {{page.long_description}}
     </div>
 </div>
