@@ -7,7 +7,7 @@ description: Turbine Trouble is an educational VR game for kids in which the rob
 long_description: Turbine Trouble is an educational VR game for kids in which the robot Toby teaches you about tidal energy and underwater pollution.
 date: 2018-09-02T09:07:40+0100
 engine: Unity
-trailer: turbine_trouble.mp4
+trailer: battle_of_grolle.mp4
 
 ---
 
