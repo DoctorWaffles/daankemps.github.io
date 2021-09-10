@@ -1,6 +1,6 @@
 ---
 title: Coblo
-tags: [Programming, UX/UI, Game Design]
+tags: [Mobile, Indie]
 image: https://i.imgur.com/R6fhIBz.png
 description: Coblo is an isometric puzzle game focussed on colours. Whilst the player ties to complete the level(s), they paint the level depending on their color; making their lives easier or harder. 
 long_description: Coblo is an isometric puzzle game focussed on colours. Whilst the player ties to complete the level(s), they paint the level depending on their color; making their lives easier or harder. The player can not go onto blocks which is not their color, the player can however change color with the use color change tiles. There are also pressure plates in the levels, which the player has to activate while being colored in the same color of the pressure plate.
@@ -19,6 +19,6 @@ https://i.imgur.com/zx9yeGu.png
 https://i.imgur.com/Qvjpk25.png
 https://i.imgur.com/wu6aZVI.png
 {% endcapture %}
-{% include elements/landscape_project.html %}
+{% include elements/landscape_project.html theme="light" %}
 
 
