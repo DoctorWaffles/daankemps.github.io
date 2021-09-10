@@ -16,5 +16,7 @@
         <h2> {{page.title}} </h2>
         <p class="text-muted">{{page.engine}}, {{ page.date | date: "%Y" }}</p>
         <blockquote> {{page.long_description}} </blockquote>
+
+        <div markdown="1"> {{body}} </div>
     </div>
 </div>

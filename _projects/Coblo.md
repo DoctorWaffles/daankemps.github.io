@@ -8,6 +8,11 @@ date: 2021-09-10
 engine: Unity
 ---
 
+
+{% capture body %}
+Coblo is a mobile and minimal remake of a previous project, [Snail Trails](projects/snail-trails) back in university in the third quarter of our second year. 
+{% endcapture %}
+
 {% capture landscape_images %}
 https://i.imgur.com/oYQOZBq.png
 https://i.imgur.com/5Xvf9eo.png
@@ -18,4 +23,3 @@ https://i.imgur.com/gIk0Vnp.png
 {% include elements/landscape_project.html %}
 
 
-Coblo is a mobile and minimal remake of a previous project, Snail Trails back in university in the third quarter of our second year. 
