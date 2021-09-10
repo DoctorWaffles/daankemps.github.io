@@ -14,11 +14,10 @@ Coblo is a mobile and minimal remake of a previous project, [Snail Trails](proje
 {% endcapture %}
 
 {% capture landscape_images %}
-https://i.imgur.com/oYQOZBq.png
-https://i.imgur.com/5Xvf9eo.png
-https://i.imgur.com/S1hJ3Br.png
-https://i.imgur.com/zhU7lts.png
-https://i.imgur.com/gIk0Vnp.png
+https://i.imgur.com/cGKflhS.png
+https://i.imgur.com/zx9yeGu.png
+https://i.imgur.com/Qvjpk25.png
+https://i.imgur.com/wu6aZVI.png
 {% endcapture %}
 {% include elements/landscape_project.html %}
 
