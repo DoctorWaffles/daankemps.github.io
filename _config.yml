@@ -10,6 +10,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 nav_exclude:
+  - pages/coblo/terms-and-conditions.md
+  - pages/coblo/privacy-policy.md
   - pages/tags.html
   - pages/404.html
   - pages/index.md
